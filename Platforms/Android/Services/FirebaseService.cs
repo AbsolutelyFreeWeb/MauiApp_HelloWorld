@@ -48,7 +48,7 @@ public class FirebaseService : FirebaseMessagingService
 
         var notificationBuilder = new NotificationCompat.Builder(this, MainActivity.Channel_ID)
             .SetContentTitle(title)
-            .SetSmallIcon(MauiApp_HellowWorld.Resource.Mipmap.appicon)
+            .SetSmallIcon(MauiApp_HelloWorld.Resource.Mipmap.appicon)
             .SetContentText(messageBody)
             .SetChannelId(MainActivity.Channel_ID)
             .SetContentIntent(pendingIntent)
