@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "975020955989",
+    "project_id": "spg-pn1",
+    "storage_bucket": "spg-pn1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975020955989:android:263f760a1b9a34c43577dc",
+        "android_client_info": {
+          "package_name": "com.redimart.maui7_helloworld"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_8urINglAx4qWSLSZ0HtO3MUOgQvL00w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
