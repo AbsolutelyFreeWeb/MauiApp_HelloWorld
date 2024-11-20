@@ -1,4 +1,4 @@
-﻿namespace MauiApp_HellowWorld;
+﻿namespace MauiApp_HelloWorld;
 
 public partial class App : Application
 {

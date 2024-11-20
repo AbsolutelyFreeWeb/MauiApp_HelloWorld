@@ -8,15 +8,13 @@ using Firebase.Messaging;
 using Firebase.Iid;
 using AndroidX.Core.App;
 using AndroidX.Core.Content;
+using MauiLib1;
 
-namespace MauiApp_HellowWorld;
+namespace MauiApp_HelloWorld;
 
 [Activity(Theme = "@style/Maui.SplashTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize | ConfigChanges.Density)]
 public class MainActivity : MauiAppCompatActivity
 {
-    internal static readonly string Channel_ID = "TestChannel";
-    internal static readonly int NotificationID = 101;
-
     protected override void OnCreate(Bundle savedInstanceState)
     {
         base.OnCreate(savedInstanceState);
@@ -50,7 +48,7 @@ public class MainActivity : MauiAppCompatActivity
     {
         if (OperatingSystem.IsOSPlatformVersionAtLeast("android", 26))
         {
-            var channel = new NotificationChannel(Channel_ID, "Test Notification Channel", NotificationImportance.Default);
+            var channel = new NotificationChannel(MyActivity.Channel_ID, "Test Notification Channel", NotificationImportance.Default);
             var notificationManager = (NotificationManager)GetSystemService(Android.Content.Context.NotificationService);
             notificationManager.CreateNotificationChannel(channel);
         }

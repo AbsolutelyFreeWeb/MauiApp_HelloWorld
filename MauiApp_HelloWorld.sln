@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiApp_HelloWorld", "MauiApp_HelloWorld.csproj", "{D3C403EC-DD8E-4B8B-8097-6F852099E339}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirebaseMyWorkerService", "..\FirebaseMyWorkerService\FirebaseMyWorkerService.csproj", "{4CDAE8EC-A67A-4E0D-9368-DE400EE6314C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base", "..\MauiLib1\Base.csproj", "{9845261D-C144-4E76-BE9D-918FF8B5C0DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +21,14 @@ Global
 		{D3C403EC-DD8E-4B8B-8097-6F852099E339}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3C403EC-DD8E-4B8B-8097-6F852099E339}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D3C403EC-DD8E-4B8B-8097-6F852099E339}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{4CDAE8EC-A67A-4E0D-9368-DE400EE6314C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CDAE8EC-A67A-4E0D-9368-DE400EE6314C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CDAE8EC-A67A-4E0D-9368-DE400EE6314C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CDAE8EC-A67A-4E0D-9368-DE400EE6314C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9845261D-C144-4E76-BE9D-918FF8B5C0DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9845261D-C144-4E76-BE9D-918FF8B5C0DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9845261D-C144-4E76-BE9D-918FF8B5C0DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9845261D-C144-4E76-BE9D-918FF8B5C0DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
